@@ -70,7 +70,7 @@ const Hero = () => {
                   <div className="relative w-full max-w-3xl aspect-video mx-auto">
                     <video
                       className="absolute inset-0 w-full h-full object-cover"
-                      src="/public/assets/images/edu+_intro.mp4"
+                      src="/public/myvideo.mp4"
                       controls
                       autoPlay
                       muted
@@ -91,5 +91,6 @@ const Hero = () => {
     </section>
   );
 };
+
 
 export default Hero;
